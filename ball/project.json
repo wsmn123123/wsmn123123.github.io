@@ -1,0 +1,26 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","external"],
+
+    "jsList" : [
+        "script/box2d/box2d.js",
+        "src/resource.js",
+        "src/BallChipmunk.js",
+        "src/Box2DTest.js",
+        "src/AnimElement.js",
+        "src/GameLogic.js",
+        "src/GameInfo.js",
+        "src/app.js",
+        "src/LaunchScene.js",
+        "src/SplashScene.js"
+    ]
+}
